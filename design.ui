@@ -10,6 +10,18 @@
     <height>342</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>430</width>
+    <height>342</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>430</width>
+    <height>342</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>YouTube Downloader - Christian 2021</string>
   </property>
@@ -38,11 +50,16 @@
    <widget class="QPushButton" name="btn_downloader">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>220</x>
       <y>260</y>
-      <width>411</width>
+      <width>201</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Baixar Videos</string>
@@ -57,8 +74,44 @@
       <height>211</height>
      </rect>
     </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; font-style:italic;&quot;&gt;Cole os links do Youtube aqui!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
     <property name="plainText">
-     <string>Cole os links do Youtube aqui!</string>
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>260</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>260</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Resolução</string>
     </property>
    </widget>
   </widget>
